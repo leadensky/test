@@ -1,0 +1,597 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "WpfApp1/1.0.0": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Themes.All": "20.2.3"
+        },
+        "runtime": {
+          "WpfApp1.dll": {}
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.All/20.2.3": {
+        "dependencies": {
+          "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.LightGray": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Seven": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2010": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Blue": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Dark": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Light": "20.2.3",
+          "DevExpress.WindowsDesktop.Wpf.Themes.Win10Light": "20.2.3"
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.DXStyle.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.LightGray.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisDark.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.MetropolisLight.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Black.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Blue.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2007Silver.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Black.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Blue.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2010Silver.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013DarkGray.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2013LightGray.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Black.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016BlackSE.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016Colorful.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016ColorfulSE.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016DarkGraySE.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016White.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2016WhiteSE.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Black.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019Colorful.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019DarkGray.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019HighContrast.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Office2019White.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Seven/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Seven.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.TouchlineDark.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2010.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Blue.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Dark.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2017Light.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Blue/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2019Blue.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Dark/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2019Dark.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Light/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.VS2019Light.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      },
+      "DevExpress.WindowsDesktop.Wpf.Themes.Win10Light/20.2.3": {
+        "runtime": {
+          "lib/netcoreapp3.0/DevExpress.Xpf.Themes.Win10Light.v20.2.dll": {
+            "assemblyVersion": "20.2.3.0",
+            "fileVersion": "20.2.3.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.All/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UdqI8cVTTmvc3yLywze/f/Y1QSQYNlPJF+197TQfUqYitpv4AJajSmuA4KmQQTVt3V+B6y3231c6ywAiWmCEAg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.all/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.all.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.DXStyle/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0ELSFci+eYWR8KLvLpG2DopTepEj37lmRTcfreEdyEhEMhIUv62YCiPggoksA9CRl21twcwbFmgS2AkNtOQ7zg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.dxstyle/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.dxstyle.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.LightGray/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KtWHl1KM/hNArBQsremv6BnmMYundZHqjETsXdVOMjDpNd0hgeOX1eEx0UCGznMwDrmnjUADkKCt131BLR3nMQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.lightgray/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.lightgray.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisDark/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DwscADw6OZm3PoJiBp+4RKGty/LH43Xd+7XifkDD94AnAFP+DAkx6EnL8tlWMVX7J99k+m/sg7yYV+VxYeP34g==",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolisdark/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.metropolisdark.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.MetropolisLight/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BcEnZKMgo3YjJt/CqYgn+qAog+b0TMU4tkE3Ze0JbqW772OyE5XHdjbIf/rX8jv+dVQFzQtCugKJ3FWoI+2nqA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.metropolislight/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.metropolislight.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Black/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mMoLjtYWJGNwR1GkfgrKL08KLwmoqeDffU+Cglyz0wDMg7rkpcP5lSnQ4m0Es5yHApNCURY/YRA3mqfjODisjg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007black/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007black.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Blue/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxEu00b0HkuMl49mRGC1kbeTxESd7GdwQFdm/R2SzY6n8EmVs/PLNByVW8wPtf6M8ZmOPv4+dBehYsZ2kl9dWg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007blue/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007blue.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2007Silver/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-95oohZAqeYJB6Jlo15L5bLvwL+9EmfmH1/Jr5P+UkLCQiY3+LHKSEH974lRf+MzDaADqzxbvpUr2hi2lxDXVIg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2007silver/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2007silver.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Black/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+PswojGTpwhRL7J27sboh9pFsnB39rPT56r1qzlApGDL+Q86ng+o5Cio5qG/OReI0y8HMC2/fIfUp3F4wmrrfg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010black/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010black.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Blue/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0vzqe+DOU+7UIgpFcSYPzQ3MFwvAWv5rrRafNaJ1Q2qU0O3c9Xtldy0ArGOvONJOifUZbsPA650j9pa6rnQHGw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010blue/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010blue.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2010Silver/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iJbT3mno2jhimuXl3ictdH9emIVBTXIUsTmkScd7FSrOLaKe0haNKgwEPaufACX21Wy7+gwO18BVDOFJ9fHoZA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2010silver/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2010silver.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AyC62vv8Fv0FhbcNTdzSMSYJDn2fHQnrax7LKnt7DcI2Lz2oDgTGFaZpShgFS3uX4TEtGqxhxMZ0FvwrvXZVYw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013DarkGray/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6pSw4MMwDS+TMpUcOcdFFLgPalFH7YKtF5ko76tq6QjmmNth/EfQASm61dcB8Hfj6giHPbki+6r/BBMob+nx4g==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013darkgray/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013darkgray.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2013LightGray/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LT+jMalw6MJ7fJVasyHrSPvvR9G9EglWdgHKaEdFFjHLUXlo8NB5q+442qUuRsExmcF6NGtt7nMa8F7J6XhOqg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2013lightgray/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2013lightgray.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Black/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0uaMJgKmJ24spa//YkHY1mBAjGcA3vDvTW05nA+guaY5Sisg+sIsOjCyM7E3SZQFOWk66VLwKKVKQhyJtr0sjA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016black/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016black.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016BlackSE/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jIIaKLKBmFyKuh3GqtYpPCl8XdmbtDUyD3bgk3QaR8bz78rRq+1iy95offnYKVQk2nzPHnbFSbCQ7RxGvvSQPQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016blackse/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016blackse.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016Colorful/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vE0nYAbk1JAhMsGx6f/F0kPVlW0llsMpUznn0WT9VArMOSp9fgzlIJJmdafU1fnH6tTjRtI8DjBt1ff3d3osbQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorful/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016colorful.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016ColorfulSE/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ueBmbWO+gE4hQ6pfQ43+s61mEUuAr56IBnBUxTL1hsZ8pII+Ovu7Yg750nJxBIcpfcI2sGPCefsErW+Gbi5/xw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016colorfulse/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016colorfulse.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016DarkGraySE/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RZjj6BS7uueDUZfS45zfZ4mpDgpo5zR9Vxzxt/f0m23/xIeVkHr7MZYGDnM65SUOXEioS7XFGhHISInnhgKM4g==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016darkgrayse.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016White/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HjeulmfZWL9SiHGc6KWHOALOYxtT4a6x8wJfy+Ve1rdDfcCyCymH2jqsl32JkipxZsulgrLZ/13x519BsG98bg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016white/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016white.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2016WhiteSE/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LdwdjePVVp968wq5ZZmfWv9paCRPsutiyiuHh6gNBxXhIRNEvyHObOeXxTXfXbi1QAUKIya+4mjw3KKcdon8Yw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2016whitese/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2016whitese.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Black/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-an/REk0UprH0/d9l7uIzIWZ+rP29Q12sInrz+rBc+iiib9s+SzlaVK0KLyrnNVd0XnflrDqWwH6lC+9TcfGNhg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019black/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019black.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019Colorful/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XDA50sXjC++sz+FW/nSKziggPIFm4NbkgB9XSvoLoqyMkfFEYMI/mgWnwkvzYHYGaHwkWaJlCgsZbr2ifs71JQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019colorful/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019colorful.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019DarkGray/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7yG9N2S5dulHNZcFHJlBcy1d0IeMfIiGWGVDqcb89+OKZ1ZDLB4U5ELJrAimOc7Xuq2rI9j8hnU/+7JYcVV0lw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019darkgray/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019darkgray.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019HighContrast/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98PXajO1To5RNTp2PbFyzYtSC7EHloiFS9G4AaB2pQqzfFQrmsPvXYiT7rEuJm2jF07QRZRYzpA4/G7mYkqpdw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019highcontrast/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019highcontrast.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Office2019White/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pFpM0Iqha6MRgq2JonKMqPdgVY3mBLoLmH06OeKqMLXWIgXVtFo+aSVziHfb/Z9wEE856B+uMg2TXqF0bGgiMQ==",
+      "path": "devexpress.windowsdesktop.wpf.themes.office2019white/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.office2019white.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Seven/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FACgZlQpVElKYMKLVoXP3dhnZwkDpoEx25CkSMViN2jYc2T7MABCvFatcAiE8TYuhI3y+AiTA2F5n+GNvnkpMA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.seven/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.seven.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.TouchlineDark/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hPiS57hb7T6gF5YVeLvvZeSdPcgxpE8qpyk8MteJDeekyRdfCRXV1GfQT9ZAjvkg8Nf1LVUzU12ji3E2zlP0dw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.touchlinedark/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.touchlinedark.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2010/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T7MYLZ/D3j05wS5vSFDLTisiPtb10pt6BAkb8Y4EJW4kMTDMp1bExrSDoF6myu4AH8iKOTaHagWF29sJdXgxOA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2010/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2010.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Blue/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jl2uUYq1rJ45j98lsjeqDnmkncdvw8DFzaz3pif4NDGowJ12c56L7L6iCzHHGmnSikAYGeP6fMPjp3s0mwM+Tw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017blue/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017blue.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Dark/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tbG5FEbrLfvVZvD2tArIFaS0ueZ8ebxicn06E97XVZX7uTqoERwZHqx91SXjXYyxs+GPJhHIehygfYOPgjJ0Xw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017dark/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017dark.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2017Light/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0LEpR2KC/JOku2123k1FEkpFAI4Uyl5xGf6Ymqd+7kH5UIBShuv3iW4MsNLiplz2LQ8LJFJMYJcnnQEezTXoQA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2017light/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2017light.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Blue/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aDdTtyOtOc/4iSf+OC1QNjKDPT2omcivafOjpF2HQMU94UbNuChKjN2bVUOYMSCP3FYoqAcHGsTNhYe3OapTsw==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2019blue/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2019blue.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Dark/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YDseSo2w7opSWidgIEO6bjEMfFrf6sdFA6L7CMJEzhsHEszWQEoxnf7SYmEolBJ/6ha4i/8HnbCOvU7e0jkd6w==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2019dark/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2019dark.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.VS2019Light/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SjlG9VsVYrrk/VHPUH7hV1jeF5wK2BTzerE3KbimAsatPgvpytkhxmSZvQTSOFTjbVdloTwSyo2OUTczi2VHBg==",
+      "path": "devexpress.windowsdesktop.wpf.themes.vs2019light/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.vs2019light.20.2.3.nupkg.sha512"
+    },
+    "DevExpress.WindowsDesktop.Wpf.Themes.Win10Light/20.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o+o/lQ1WzAe8+MWdE51d2YUpQtrknn8Tx6BT5GnmRALtOrxRY8FpxemBrzp3aFg/LNXrsnlx7vnPhI7grTojvA==",
+      "path": "devexpress.windowsdesktop.wpf.themes.win10light/20.2.3",
+      "hashPath": "devexpress.windowsdesktop.wpf.themes.win10light.20.2.3.nupkg.sha512"
+    }
+  }
+}
